@@ -1,21 +1,15 @@
-# Kodluyoruz Ilk Repo
-Bu repo [Bu Repo](https://kodluyoruz.org/tr/kodluyoruz/) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
-## Installation
+## MErge Sort Projesi
 
-Öncelikle Projeyi clonlayın.(buraya sizin reonuzdan aldığınız nick gelecek.)
+**[16,21,11,8,12,22]** 
 
-    >git console https://github.com/shaylaman/kodluyoruzilkrepo.git
+[16,21,11]              [8,12,22]
 
-## Usage
-Projeyi kodladıktan sonraVisual Studio ğrogramında açınız.
+[16] [21,11]             [8] [12,22]
 
-Linux için :
-    
-                 >>cd kodluyoruz ilk repo
-                     code .
+[16] [21] [11]          [8] [12] [22]
+ 
+[16] [11,21]             [8] [12,22]
 
-## Contributing
-Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+[11,16,21]            [8,12,22]
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+     [8,11,12,16,21,22]
